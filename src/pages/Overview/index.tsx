@@ -1,3 +1,4 @@
+import React from 'react'
 import { PlatformNavigation } from '../../components/PlatformNavigation'
 import { Container } from './styles'
 

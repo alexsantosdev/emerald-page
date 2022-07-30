@@ -374,6 +374,8 @@ export const Container = styled.div`
                     & + .column {
                         background: #fafafa;
 
+                        box-shadow: none;
+
                         button {
                             border: 1px solid #29292e;
                             background: transparent;
@@ -406,6 +408,11 @@ export const Container = styled.div`
                     transition: 0.2s;
                     opacity: 0.6;
                 }
+            }
+
+            div.columns .column img:hover {
+                -webkit-animation: shake 1s;
+                animation: shake 1s;
             }
         }
     }
